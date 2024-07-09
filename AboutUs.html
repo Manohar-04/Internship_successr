@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuccessR Webpage</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .testimonial {
+        background-color: #f8f9fa;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .client-logo {
+        max-width: 100px;
+        margin: 10px;
+      }
+      .footer-section {
+        background-color: #343a40;
+        color: white;
+        padding: 40px 0;
+      }
+      .footer-section a {
+        color: white;
+      }
+      .footer-section a:hover {
+        text-decoration: none;
+      }
+      h2:after,
+      jdb-heading-heading:after,
+      h5:after,
+      h3:after {
+        content: "";
+        height: 2px;
+        width: 28px;
+        background-color: var(--orange);
+        display: block;
+        margin-top: 18px;
+      }
+      .testimonial-card {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #e3e6f0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      .testimonial-card p {
+        font-size: 0.9rem;
+      }
+      .testimonial-author {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .testimonial-author img {
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      .carousel-item img {
+        max-width: 100px;
+        max-height: 50px;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        color: #333;
+        background: linear-gradient(45deg, #fdfbfb, #ebedee);
+      }
+      .hero-section {
+        background: url("https://www.shutterstock.com/shutterstock/photos/2151657341/display_1500/stock-photo--global-business-structure-of-networking-analysis-and-data-exchange-customer-connection-hr-2151657341.jpg")
+          no-repeat center center;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 100px 0;
+        position: relative;
+      }
+      .hero-section::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .hero-section h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        z-index: 1;
+        position: relative;
+      }
+      .hero-section p {
+        font-size: 1.25rem;
+        z-index: 1;
+        position: relative;
+      }
+      .about-us,
+      .numbers-section {
+        padding: 60px 0;
+      }
+      .about-us h2 {
+        color: #17a2b8;
+        margin-bottom: 20px;
+      }
+      .numbers-section h2 {
+        color: #007bff;
+        margin-bottom: 20px;
+      }
+      .numbers-section .icon {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+      .numbers-section h4 {
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+      }
+      .numbers-section p {
+        color: #333;
+      }
+      .about-us p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+      }
+      .about-us hr,
+      .numbers-section hr {
+        border: 0;
+        height: 1px;
+        background: #17a2b8;
+        margin: 20px 0;
+      }
+      .numbers-section hr {
+        background: #007bff;
+      }
+      .container {
+        max-width: 1200px;
+      }
+      .number-item:nth-child(1) .icon {
+        color: #28a745;
+      }
+      .number-item:nth-child(2) .icon {
+        color: #17a2b8;
+      }
+      .number-item:nth-child(3) .icon {
+        color: #ffc107;
+      }
+      .number-item:nth-child(4) .icon {
+        color: #dc3545;
+      }
+      .number-item:nth-child(5) .icon {
+        color: #6f42c1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section">
+      <h1>Welcome to the Human Side of Things</h1>
+      <p>Empowering people, Empowering organizations</p>
+    </div>
+
+    <div class="container about-us">
+      <div class="row">
+        <div class="col">
+          <h2>About Us..</h2>
+          <hr />
+          <p>
+            If you are leading, it starts showing<br />
+            In your numbers<br />
+            In your tech<br />
+            In your equity
+          </p>
+          <p>
+            But none of these things truly make you a leader. None of these
+            things even ensure that you can continue being one.
+          </p>
+          <p>
+            At SuccessR, we believe that leadership is achievable and
+            sustainable only when you have the right people at the right time,
+            doing the right things.
+          </p>
+          <p>
+            There are many sides to leadership but the one that’s perhaps most
+            important to nurture is the human side of things. For nearly three
+            decades, we have been helping organizations find the best of talent
+            to realize their objectives. So, while you focus on the key aspects
+            to show up as a leader, we promise to keep our eyes trained on the
+            Human Side Of Things™ for you.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container numbers-section">
+      <h2>Numbers Speak for Us</h2>
+      <hr />
+      <div class="row text-center">
+        <div class="col-md-4 number-item">
+          <div class="icon"><i class="fas fa-tools"></i></div>
+          <h4>We build doors for opportunities to knock</h4>
+          <p>
+            31,841 people are provided employment opportunities by us every year
+          </p>
+        </div>
+        <div class="col-md-4 number-item">
+          <div class="icon"><i class="fas fa-briefcase"></i></div>
+          <h4>Their business is our business</h4>
+          <p>
+            SuccessR services over 908 active clients - an incredible feat
+            enabled by dedication to excellence in client servicing
+          </p>
+        </div>
+        <div class="col-md-4 number-item">
+          <div class="icon"><i class="fas fa-chart-line"></i></div>
+          <h4>Leading solutions for the leaders</h4>
+          <p>
+            We serve more than 11 Fortune 500 clients and over 75 of Top 500
+            brands in India
+          </p>
+        </div>
+        <div class="col-md-4 number-item">
+          <div class="icon"><i class="fas fa-users"></i></div>
+          <h4>We believe everyone can do better</h4>
+          <p>
+            We skilled more than 100,000 individuals, making them ready to join
+            the workforce
+          </p>
+        </div>
+        <div class="col-md-4 number-item">
+          <div class="icon"><i class="fas fa-user-graduate"></i></div>
+          <h4>We inspire aspirations</h4>
+          <p>More than 3 million job aspirants are connected with us</p>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5">
+      <h2>Testimonials</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <blockquote>
+              <p>
+                Being in a core and railway industry it's hard for me to find
+                the right candidate, and then I came to know about 2COMS and
+                their service towards the industry, so I made a corporate
+                relationship with them. It's been almost 4 months and we are
+                more than happy with them and their service. Mr. Abhra and Ms.
+                Puja are very supportive and helpful in the selection of the
+                right one. I hope that this will continue.
+              </p>
+            </blockquote>
+            <div class="testimonial-author">
+              <img
+                src="https://via.placeholder.com/50x50?text=DP"
+                alt="Debargha Das"
+                width="50"
+                height="50"
+              />
+              <div>
+                <strong>Debargha Das</strong><br />
+                <span>Executive – HR (Technical)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial-card">
+            <blockquote>
+              <p>
+                It was nice working with the company. They understand the
+                client's requirement and give best candidates accordingly.
+              </p>
+            </blockquote>
+            <div class="testimonial-author">
+              <img
+                src="https://via.placeholder.com/50x50?text=DP"
+                alt="Muskan Bagaria"
+                width="50"
+                height="50"
+              />
+              <div>
+                <strong>Muskan Bagaria</strong><br />
+                <span>Marketing - Exports (Technical)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Clients Section -->
+    <div class="container p-5">
+      <h2>Our Clients</h2>
+      <div id="clientsCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-around">
+              <img
+                src="https://via.placeholder.com/100x50?text=Client1"
+                alt="Client1"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client2"
+                alt="Client2"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client3"
+                alt="Client3"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client4"
+                alt="Client4"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-around">
+              <img
+                src="https://via.placeholder.com/100x50?text=Client5"
+                alt="Client5"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client6"
+                alt="Client6"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client7"
+                alt="Client7"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client8"
+                alt="Client8"
+              />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-around">
+              <img
+                src="https://via.placeholder.com/100x50?text=Client9"
+                alt="Client9"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client10"
+                alt="Client10"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client11"
+                alt="Client11"
+              />
+              <img
+                src="https://via.placeholder.com/100x50?text=Client12"
+                alt="Client12"
+              />
+            </div>
+          </div>
+        </div>
+        <a
+          style="width: 1cm"
+          class="carousel-control-prev bg-secondary"
+          href="#clientsCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          style="width: 1cm"
+          class="carousel-control-next bg-secondary"
+          href="#clientsCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h5>Know Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Group Companies</a></li>
+              <li><a href="#">Management</a></li>
+              <li><a href="#">Milestone, Awards & Recognition</a></li>
+              <li><a href="#">Photo Gallery</a></li>
+              <li><a href="#">SuccessR Foundation</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Solutions</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Recruitment</a></li>
+              <li><a href="#">General Staffing</a></li>
+              <li><a href="#">IT Staffing</a></li>
+              <li><a href="#">Apprenticeship Management</a></li>
+              <li><a href="#">Hire-Train-Deploy</a></li>
+              <li><a href="#">Payroll and Compliances</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Employer</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Why SuccessR</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Industries We Serve</a></li>
+              <li><a href="#">Our Clients</a></li>
+              <li><a href="#">Client Testimonials</a></li>
+              <li><a href="#">Job Seekers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Connect</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Why Join Us</a></li>
+              <li><a href="#">Life At SuccessR</a></li>
+              <li><a href="#">Job Seekers</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">WhatsApp Community</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <p>&copy; Copyright 2021. All Rights Reserved. SuccessR</p>
+          <p><a href="#">Term of Use</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
